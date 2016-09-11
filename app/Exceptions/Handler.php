@@ -45,7 +45,7 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {
-      header("Location: http://nitipsempak.com/");
+      header("Location: http://www.1227.com/");
       die();
 
       //  return parent::render($request, $exception);
