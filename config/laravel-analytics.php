@@ -25,7 +25,7 @@ return
          * Should look like:
          * xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@developer.gserviceaccount.com
          */
-        serviceEmail' => env('ANALYTICS_SERVICE_EMAIL'),
+        'serviceEmail' => env('ANALYTICS_SERVICE_EMAIL'),
 //sewamobildibali@fluent-ego-143117.iam.gserviceaccount.com
         /*
          * You need to download a p12-certifciate from the Google API console
