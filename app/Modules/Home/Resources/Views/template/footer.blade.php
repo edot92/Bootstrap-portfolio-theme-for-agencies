@@ -46,6 +46,7 @@
 			<a href="https://www.facebook.com.edottfu" target="_blank"><i class="fa fa-facebook"></i></a>
 
 			<a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
+					<a href="https://plus.google.com/115514248833707207069" target="_blank"><i class="fa fa-google-plus></i></a>
 
 		</div>
 
