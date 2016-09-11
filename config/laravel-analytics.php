@@ -19,7 +19,7 @@ return
          * Should look like:
          * xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com
          */
-        'clientId' => 'https://www.googleapis.com/robot/v1/metadata/x509/sewamobildibali%40fluent-ego-143117.iam.gserviceaccount.com',
+        'clientId' => '102289815695758725161.apps.googleusercontent.com',
 
         /*
          * Set the service account name
