@@ -9,15 +9,17 @@ return
          *
          * Should look like: ga:xxxxxxxx.
          */
-        'siteId' => env('ANALYTICS_SITE_ID'),
-
+      //   'siteId' => env('ANALYTICS_SITE_ID'),
+        'siteId' => env('ga:129525730'),
+        // ANALYTICS_SERVICE_EMAIL=sewamobildibali@fluent-ego-143117.iam.gserviceaccount.com
+        // ANALYTICS_SITE_ID=ga:129525730
         /*
          * Set the client id
          *
          * Should look like:
          * xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com
          */
-        'clientId' => env('ANALYTICS_CLIENT_ID'),
+        'clientId' => 'https://www.googleapis.com/robot/v1/metadata/x509/sewamobildibali%40fluent-ego-143117.iam.gserviceaccount.com',
 
         /*
          * Set the service account name
@@ -25,7 +27,7 @@ return
          * Should look like:
          * xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@developer.gserviceaccount.com
          */
-        'serviceEmail' => env('ANALYTICS_SERVICE_EMAIL'),
+        'serviceEmail' => env('sewamobildibali@fluent-ego-143117.iam.gserviceaccount.com'),
 //sewamobildibali@fluent-ego-143117.iam.gserviceaccount.com
         /*
          * You need to download a p12-certifciate from the Google API console
