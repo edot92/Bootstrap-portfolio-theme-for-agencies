@@ -1,5 +1,5 @@
 @extends('home::template.index_template')
-
+@section('deskripsi_seo', 'sewa mobil murah banget')
 @section('title', 'About US')
 
 @section('isiKonten')
