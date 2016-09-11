@@ -1,9 +1,9 @@
 
 
-        <div class="container">
+<div class="container">
 
 <article class="">
       @yield('isiKonten')
 </article>
 
-        </div>
+</div>

@@ -179,6 +179,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         Caffeinated\Modules\ModulesServiceProvider::class,
+        Spatie\LaravelAnalytics\LaravelAnalyticsServiceProvider::class,
 
     ],
 
@@ -227,6 +228,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Module' => Caffeinated\Modules\Facades\Module::class,
+          'Analytics' => Spatie\LaravelAnalytics\LaravelAnalyticsFacade::class,
 
     ],
 

@@ -10,7 +10,6 @@
 <br>
 <br>
 
-
 <div id="content" style="width: 100%;">
 				<div id="post-12" class="post-12 page type-page status-publish hentry">
 			<span class="entry-title" style="display: none;">Cars</span><span class="vcard" style="display: none;"><span class="fn"><a href="http://nativerental.com/cars/author/nativerental/" title="Posts by Native Rental" rel="author">Native Rental</a></span></span><span class="updated" style="display:none;">2015-05-14T12:20:34+00:00</span>																		<div class="post-content">
@@ -136,7 +135,7 @@
             </a>
             </div>
     <div class="item-description">
-        <a href="http://nativerental.com/cars/cars/mazda-6/" title="Show car description"><span class="item-name">Mazda 6</span></a>        <br><hr>
+        <a href="https://www.facebook.com/eddot.fu" title="Show car description"><span class="item-name">Mazda 6</span></a>        <br><hr>
                 <div class="description-item">
             <i class="fa fa-tachometer"></i>
             <span class="description-title"> Fuel:</span> Petrol        </div>
@@ -173,7 +172,7 @@
             </a>
             </div>
     <div class="item-description">
-        <a href="http://nativerental.com/cars/cars/opel-vivaro/" title="Show car description"><span class="item-name">Opel Vivaro</span></a>        <br><hr>
+        <a href="https://www.facebook.com/eddot.fu" title="Show car description"><span class="item-name">Opel Vivaro</span></a>        <br><hr>
                 <div class="description-item">
             <i class="fa fa-tachometer"></i>
             <span class="description-title"> Fuel:</span> Diesel        </div>
@@ -358,7 +357,7 @@
             </a>
             </div>
     <div class="item-description">
-        <a href="http://nativerental.com/cars/cars/citroen-c5/" title="Show car description"><span class="item-name">Citroen C5</span></a>        <br><hr>
+        <a href="https://www.facebook.com/eddot.fu" title="Show car description"><span class="item-name">Citroen C5</span></a>        <br><hr>
                 <div class="description-item">
             <i class="fa fa-tachometer"></i>
             <span class="description-title"> Fuel:</span> Diesel        </div>
@@ -432,7 +431,7 @@
             </a>
             </div>
     <div class="item-description">
-        <a href="http://nativerental.com/cars/cars/nissan-qashqai2/" title="Show car description"><span class="item-name">Nissan Qashqai+2</span></a>        <br><hr>
+        <a href="https://www.facebook.com/eddot.fu" title="Show car description"><span class="item-name">Nissan Qashqai+2</span></a>        <br><hr>
                 <div class="description-item">
             <i class="fa fa-tachometer"></i>
             <span class="description-title"> Fuel:</span> Diesel        </div>
@@ -506,7 +505,7 @@
             </a>
             </div>
     <div class="item-description">
-        <a href="http://nativerental.com/cars/cars/vwtouareg/" title="Show car description"><span class="item-name">VW Touareg</span></a>        <br><hr>
+        <a href="https://www.facebook.com/eddot.fu" title="Show car description"><span class="item-name">VW Touareg</span></a>        <br><hr>
                 <div class="description-item">
             <i class="fa fa-tachometer"></i>
             <span class="description-title"> Fuel:</span> Diesel        </div>
@@ -543,7 +542,7 @@
             </a>
             </div>
     <div class="item-description">
-        <a href="http://nativerental.com/cars/cars/mercedes-ml350/" title="Show car description"><span class="item-name">Mercedes ML350</span></a>        <br><hr>
+        <a href="https://www.facebook.com/eddot.fu" title="Show car description"><span class="item-name">Mercedes ML350</span></a>        <br><hr>
                 <div class="description-item">
             <i class="fa fa-tachometer"></i>
             <span class="description-title"> Fuel:</span> Petrol        </div>

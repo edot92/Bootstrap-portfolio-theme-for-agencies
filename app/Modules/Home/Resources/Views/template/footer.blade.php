@@ -1,106 +1,54 @@
-{{-- <footer class="footer">
-  <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright"><h5>Copyright © sundul</h5></span>
 
+<!-- The content of your page would go here. -->
 
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                  <div>
-      <i class="fa fa-map-marker"></i>
-      <p><span>PULO JAHE</span>JAKARTA TIMUR</p>
-    </div>
+<footer class="footer-distributed">
 
-    <div>
-      <i class="fa fa-phone"></i>
-      <p>+6282210160003</p>
-    </div>
+	<div class="footer-left">
 
-    <div>
-      <i class="fa fa-envelope"></i>
-      <p><a href="mailto:support@company.com">edyprasetiyoo@gmail.com</a></p>
-    </div>
+		<h3>Company<span>logo</span></h3>
 
-                </div>
-            </div>
-        </div>
-   </footer> --}}
-   <!-- The content of your page would go here. -->
+		<p class="footer-links">
+		</p>
 
-		<footer class="footer-distributed">
+		<p class="footer-company-name">PT. XXX &copy; 2016</p>
+	</div>
 
-			<div class="footer-left">
+	<div class="footer-center">
 
-				<h3>Company<span>logo</span></h3>
+		<div>
+			<i class="fa fa-map-marker"></i>
+			<p><span>PULOJAHE </span> JAKARTA, INDONESIA</p>
+		</div>
 
-				<p class="footer-links">
-					{{-- <a href="#">Home</a>
-					·
-					<a href="#">Blog</a>
-					·
-					<a href="#">Pricing</a>
-					·
-					<a href="#">About</a>
-					·
-					<a href="#">Faq</a>
-					·
-					<a href="#">Contact</a> --}}
-				</p>
+		<div>
+			<i class="fa fa-phone"></i>
+			<p>+6282210160003</p>
+		</div>
 
-				<p class="footer-company-name">PT. XXX &copy; 2016</p>
-			</div>
+		<div>
+			<i class="fa fa-envelope"></i>
+			<p><a href="mailto:support@company.com">edyprasetiyoo@gmail.com</a></p>
+		</div>
 
-			<div class="footer-center">
+	</div>
 
-				<div>
-					<i class="fa fa-map-marker"></i>
-					<p><span>PULOJAHE </span> JAKARTA, INDONESIA</p>
-				</div>
+	<div class="footer-right">
 
-				<div>
-					<i class="fa fa-phone"></i>
-					<p>+6282210160003</p>
-				</div>
+		<p class="footer-company-about">
+			{{-- <span>About the company</span>
+			Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+		</p> --}}
 
-				<div>
-					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:support@company.com">edyprasetiyoo@gmail.com</a></p>
-				</div>
+		<div class="footer-icons">
 
-			</div>
+			<a href="https://twitter.com/?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
 
-			<div class="footer-right">
+			<a href="https://www.facebook.com.edottfu" target="_blank"><i class="fa fa-facebook"></i></a>
 
-				<p class="footer-company-about">
-					{{-- <span>About the company</span>
-					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-				</p> --}}
+			<a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
 
-				<div class="footer-icons">
+		</div>
 
-					{{-- <a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-github"></i></a> --}}
-          <a href="https://twitter.com/?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
+	</div>
 
-    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-
-        <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
-
-				</div>
-
-			</div>
-
-		</footer>
+</footer>

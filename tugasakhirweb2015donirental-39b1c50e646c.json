@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fluent-ego-143117",
+  "private_key_id": "39b1c50e646c30db455854e5879fa963f3f38e79",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDyfEOaC08M2Pv3\nV4ud5UiWMYxFDVBmpt4LoEDIaYdgq1RWP57m5xkmDDLqoCj2u5rsujlunlqUnRVK\n4dvfXFtB52S3umxQdTWLRSacA9Ann+r+/sPnjhKzQa92E2EAH0EoQpTBsf45Bz2O\nN6IIYIR7rL+fm2fiYYhfe6rfa9S9VJgOPDAddToJAWH/FwfRVE7KWh1v8IEgf4Hl\nBfVUZjLQmv5YzeADtYkhJTllQ4VaCvtMbs2w8CBc3PunIWHLGDt3TzLSiEhhPExS\nxhoYqgSZGgBhl20TrVZ+quZUqJd2DOToPpPNj53tstR8HYzEdO9sjahmQQ+9RTTb\nZBfKtqGVAgMBAAECggEACYFXgQ1abu1+iwaSgYEAZGrSzc4kzbFS2O/SOkjwtphg\nuPTLfM+oS7aEtG/My0c1Xnw6ThzE/jheIk5SOSI8rYuthgo3vrupeqkeR1Va7oK1\nSoOgGE6YaxBzGVTPI5sWCcb6X9FjXsbq4c1Ke7uU1ehCprYHz3b1SpDldNacQ0Of\nHW11cgf1qzuvO3yPlhFveRJs37OMWcdlKk7F83tqWyr5X4JibwDjgJXdvYpQ6u/E\ntONmm68t24JpdQqInMUiAHUgsCddEYfCpphmw1sJgHaB+M831znc+e8F93sBIdsd\n6A2IdpJ8QTxzW8FanqAaTgSompDTsx+jd5Sk7MlZoQKBgQD787hrU3TxZLImG3dg\npqsiRfu5gsMUOhyWiHdwVaEsmxVPz2X6GnhNO17FOwiIiiuDD2WkAHcatOaY3sAo\nP84/ranvrCEB8AtnZkYRCb+gtk0csg8xzyP4TDlss95mQHVUPRpDmC0W2UPZqbkp\ne/6c1zRz7ANHJK7Nsdz1jn4QGQKBgQD2YZt/e9Xc5r2ZcXIbGJ9BMZHqJFdfaiYJ\n+82SbCX/333a7qyP+XMxlh5P853k3vOI6gRUh7y62akpI9vtlK50AYk/CUzyDKla\nRpQHfPLf5mMEo1sgBOPUZtvpL32zKpsTl14PBvQIjXAERJ6Lvi0WSIWvuMdGD1YR\n8J3nMyAc3QKBgEsiq2SWRtGWDep/VmJkUbSu2hrAfByUF+JsX/IIF0COHxTl7Kth\nKW8evWxj5m+RhNhYxx7ZZKt6Nypvgy59mKw0xfDLjCxfwYbcYRjDp3nt46EjGJTq\nCPgLAzT/jts/bb3pWuO9hfTCZhGLI8TTTWLIasQHJhMZRWfiGtq/26hBAoGBANAr\npmOvcQJFHxtfxAZq5lwCEwRfEke2+07iJ044/F5WKhNqJ/k5zf+ulAv/jYAMdH5R\nI7l8OpUxRQFSoAb74e54Qcs2A4Jb+lchXP96rgdJtI39rAfAufMDuXkrvCw+qmqC\nMWHHATecsXGZvM/brmKuge331L84RAPCZtgq1U4tAoGAdTg9iXOXqiXF/SvxM5N6\nVKy03/gLxCLkZ0G7VdcPtjNQnq30jBJMz71y8Iqo6L7RLQP86qQAfyRXp2xRbOa7\nynrocFHelAV8zFlr4cPcWU7PQYlwx5GM9CTrgMxf/nUuycp0CT8EWwliuNnMoR4X\n3a6GMEW+kaiOmkesWUhKnjw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sewamobildibali@fluent-ego-143117.iam.gserviceaccount.com",
+  "client_id": "102289815695758725161",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sewamobildibali%40fluent-ego-143117.iam.gserviceaccount.com"
+}
