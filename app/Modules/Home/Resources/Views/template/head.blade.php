@@ -4,8 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="@yield('deskripsi_seo')" />
-    <meta name="author" content="">
-
+    <meta name="author" content="penjual mobil">
+    <link rel="alternate" href="http://sewamobildibali.96.lt" hreflang="id-id" />
      <title>@yield('title')</title>
 
     <!-- Bootstrap Core CSS -->
