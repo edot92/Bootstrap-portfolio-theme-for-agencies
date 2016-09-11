@@ -10,7 +10,7 @@ return
          * Should look like: ga:xxxxxxxx.
          */
       //   'siteId' => env('ANALYTICS_SITE_ID'),
-        'siteId' => env('ga:129525730'),
+        'siteId' => 'ga:129525730',
         // ANALYTICS_SERVICE_EMAIL=sewamobildibali@fluent-ego-143117.iam.gserviceaccount.com
         // ANALYTICS_SITE_ID=ga:129525730
         /*
@@ -27,15 +27,16 @@ return
          * Should look like:
          * xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@developer.gserviceaccount.com
          */
-        'serviceEmail' => env('sewamobildibali@fluent-ego-143117.iam.gserviceaccount.com'),
+        'serviceEmail' => 'sewamobildibali@fluent-ego-143117.iam.gserviceaccount.com',
 //sewamobildibali@fluent-ego-143117.iam.gserviceaccount.com
         /*
          * You need to download a p12-certifciate from the Google API console
          * Be sure to store this file in a secure location.
          */
         //certificatePath= >storage_path(laravel-analytics/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-privatekey.p12'
+        'certificatePath' => storage_path('app/laravel-analytics/tugasakhirweb2015donirental-26f7ec2e917f.p12'),
 
-        'service_account_credentials_json' => storage_path('app/laravel-google-analytics/tugasakhirweb2015donirental-c756d7307b27.json'),
+      'service_account_credentials_json' => storage_path('app/laravel-google-analytics/tugasakhirweb2015donirental-c756d7307b27.json'),
 
         /*
          * The amount of minutes the Google API responses will be cached.
