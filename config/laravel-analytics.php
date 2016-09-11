@@ -31,7 +31,8 @@ return
          * You need to download a p12-certifciate from the Google API console
          * Be sure to store this file in a secure location.
          */
-        //'certificatePath' => storage_path('laravel-analytics/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-privatekey.p12'),
+        //certificatePath= >storage_path(laravel-analytics/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-privatekey.p12'
+
         'service_account_credentials_json' => storage_path('app/laravel-google-analytics/tugasakhirweb2015donirental-c756d7307b27.json'),
 
         /*
