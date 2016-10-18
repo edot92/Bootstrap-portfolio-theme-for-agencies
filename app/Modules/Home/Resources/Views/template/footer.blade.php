@@ -10,10 +10,12 @@
 		<p class="footer-links">
 		</p>
 
-		<p class="footer-company-name">PT. XXX &copy; 2016</p>
+		<p class="footer-company-name">PT. MERTA DANA RENTCAR &copy; 2016</p>
 	</div>
 
 	<div class="footer-center">
+		{{-- CONTACT PERSON --}}
+
 
 		<div>
 			<i class="fa fa-map-marker"></i>
@@ -22,8 +24,20 @@
 
 		<div>
 			<i class="fa fa-phone"></i>
-			<p>+6282210160003</p>
+			<p>Call/SMS : 081212992102/081936121437</p>
+
 		</div>
+		<div>
+			<i class="fa fa-whatsapp"></i>
+			<p>Whatsapp : 087860472143</p>
+		</div>
+		<div>
+			<i class="fa fa-instagram"></i>
+			<p>Follow : mertadanaretcar</p>
+		</div>
+
+
+
 
 		<div>
 			<i class="fa fa-envelope"></i>
