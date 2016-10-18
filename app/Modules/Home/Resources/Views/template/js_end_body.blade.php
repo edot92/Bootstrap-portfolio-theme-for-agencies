@@ -11,7 +11,7 @@
   //
   // ga('create', 'UA-84008721-1', 'auto');
   // ga('send', 'pageview');
-
+  </script>
 
   <!-- Google Analytics -->
   <script>
@@ -22,6 +22,5 @@
 
   ga('create', 'UA-84008721-1', 'auto');
   ga('send', 'pageview');
-  </script>
-  <!-- End Google Analytics -->
 </script>
+  <!-- End Google Analytics -->

@@ -1,0 +1,424 @@
+/*
+Theme Name: Avada Car Child
+Description: Child car theme for Avada Framework
+Author: Kestutis Matuliauskas
+Theme URI: http://theme-fusion.com/avada/
+Author URI: http://themeforest.net/user/KestutisIT
+Template: Avada
+Version: 3.9.1
+License: Themeforest Split Licence
+License URI: -
+Text Domain: AvadaCar-child
+-----------------------------------------------------------------------------*/
+/* Global style settings*/
+.input-text,
+input[type="text"] {
+    font-size: 16px;
+}
+/*.fontawesome-icon {
+    margin-right: 5px;
+}*/
+body #wrapper {
+	background-image: url(images/car-header-image-crimson-red.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: transparent !important;
+}
+body.home, body.page-id-18, body.page-id-20 {
+    background:url('images/item-rental-bg.png');
+}
+
+/* ------------------------------------------------------- */
+/* -------------------- HEADER: START -------------------- */
+/* ------------------------------------------------------- */
+
+/*height has to be 30px*/
+div.fusion-header-v5 .fusion-secondary-header {
+    background:rgba(55,55,55,0.8);
+    min-height: 33px;
+    border-bottom: 0 !important;
+}
+.fusion-contact-info,.fusion-secondary-menu{
+    color:#fff;
+}
+.fusion-secondary-menu ul li a{
+    color:#fff;
+}
+.fusion-secondary-menu ul li a:hover{
+    color:#fff;
+}
+.fusion-secondary-menu > ul#menu-language-link > li{
+    border-color:#fff
+}
+@media (max-width: 768px) {
+    div.fusion-header-v5 .fusion-secondary-header {
+        background-repeat: repeat !important;
+    }
+}
+div.fusion-header-v5 .fusion-secondary-header .fusion-contact-info {
+    line-height: 31px !important;
+}
+div.fusion-header-v5 .fusion-secondary-header .fusion-secondary-header .fusion-social-links-header {
+    margin-top: 6px !important;
+}
+div.fusion-header-v5 .fusion-secondary-header .fusion-contact-info {
+    margin-left: 26px;
+}
+div.fusion-header-v5 .fusion-secondary-header .fusion-contact-info .toplineblock {
+    display: inline-block;
+    margin-right: 40px;
+}
+@media (max-width: 768px) {
+    div.fusion-header-v5 .fusion-secondary-header .fusion-contact-info .toplineblock {
+        width: 100%;
+        margin-top: 5px;
+        margin-right: 0;
+    }
+}
+div.fusion-header-v5 .fusion-secondary-header .fusion-social-links-header {
+    margin-top: 0;
+}
+div.fusion-header-v5 .fusion-secondary-header .fusion-social-networks .fusion-social-network-icon {
+    margin-bottom: 0;
+}
+div.fusion-header-v5 .fusion-secondary-header .fusion-icon-facebook {
+    background-color: #4c4c4c;
+    border-radius: 14px;
+    border: 3px solid #4c4c4c;
+    color: white !important;
+    vertical-align: top;
+}
+div.fusion-header-v5 .fusion-secondary-header .fusion-icon-skype {
+    font-size: 18px !important;
+    vertical-align: top;
+    margin-top: 1px;
+}
+div.fusion-header-v5 .fusion-secondary-header .fusion-secondary-menu > ul > li > a {
+    padding: 0 10px;
+}
+div.fusion-header-v5 .fusion-header {
+    border-bottom: 0;
+}
+div.fusion-header-v5 div.fusion-secondary-main-menu {
+    border-bottom: 0;
+}
+div.fusion-header-v5 div.fusion-secondary-main-menu ul li {
+	padding-left: 16px;
+}
+div.fusion-header-v5 div.fusion-secondary-main-menu ul li.fusion-last-menu-item {
+	padding-right: 16px !important;
+}
+div.fusion-header-v5 div.fusion-secondary-main-menu .fusion-main-menu ul li a {
+	text-transform: uppercase;
+}
+div.fusion-header-v5 div.fusion-secondary-main-menu .fusion-main-menu ul li.current_page_item {
+	background-color: #343434;
+}
+div.fusion-header-v5 div.fusion-secondary-main-menu .fusion-main-menu ul li:hover  {
+	background-color: #343434;
+}
+div.fusion-header-v5 div.fusion-secondary-main-menu .fusion-main-menu ul li a:hover  {
+	color: white;
+}
+/* Class 'header-menu-house' is added in WP Admin -> Menu -> Class */
+div.fusion-header-v5 div.fusion-secondary-main-menu .fusion-main-menu ul li.header-menu-house img {
+	margin-top: 11px;
+}
+/* ------------------------------------------------------- */
+/* ----------------- MAIN BODY: START -------------------- */
+/* ------------------------------------------------------- */
+
+/* Body has to be transparent to get headers image*/
+div#main {
+    background: none !important;
+}
+div#main .nrs-wide-slider {
+    text-align: center;
+}
+div#main .nrs-wide-slider .fusion-row {
+    width: 1026px;
+}
+/* We need this to fit text into page on responsive mode */
+@media (max-width: 1026px) {
+    div#main .nrs-wide-slider .fusion-row {
+        width: 100%;
+    }
+}
+
+div#main .why-we-section .fusion-column {
+    text-align: center;
+}
+div#main .why-we-section img {
+	border: 2px solid #DE2E2E;
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+}
+div#main .our-cars-heading {
+	clear: both;
+}
+div#main h2.our-benefits-heading {
+	margin-bottom: 5px;
+	margin-top: 38px;
+	font-weight: bold !important;
+}
+div#main .benefit-home-boxes > div.content-box-column .heading {
+    display: none;
+    visibility: hidden;
+}
+div#main .benefit-home-boxes {
+	margin-bottom: 0;
+}
+div#main div.benefit-home-boxes > div.content-box-column div.content-container {
+    margin-top: 15px;
+}
+/* We need this to remove Avada's -15 margin's */
+@media (max-width: 1000px) {
+    div#main .benefit-home-boxes {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+div#main .benefit-home-boxes .col-xs-2:nth-child(5),
+div#main .benefit-home-boxes .col-sm-2:nth-child(5),
+div#main .benefit-home-boxes .col-md-2:nth-child(5),
+div#main .benefit-home-boxes .col-lg-2:nth-child(5) {
+	padding-right: 15px !important;
+}
+div#main .benefit-home-boxes .col-xs-2,
+div#main .benefit-home-boxes .col-sm-2,
+div#main .benefit-home-boxes .col-md-2,
+div#main .benefit-home-boxes .col-lg-2 {
+	padding-left: 0;
+	padding-right: 0;
+}
+div#main .benefit-home-boxes .col-xs-2:first-child,
+div#main .benefit-home-boxes .col-sm-2:first-child,
+div#main .benefit-home-boxes .col-md-2:first-child,
+div#main .benefit-home-boxes .col-lg-2:first-child {
+	padding-left: 15px;
+}
+div#main .benefit-home-boxes h2.content-box-heading {
+	text-align: center;
+}
+div#main .benefit-home-boxes .content-container {
+	text-align: center;
+	font-size: 16px;
+}
+
+/* Comes from WP admin Home page HTML CSS class hook, grey part before footer */
+div#main .nrs-wide-reservation-about {
+    font-size: 22px;
+    line-height: 1.6;
+    text-align: center;
+    font-weight: 100;
+}
+div#main .nrs-wide-reservation-about .fusion-row, div#main .main-spec-block .fusion-row {
+    width: 1026px;
+}
+/* We need this to fit text into page on responsive mode */
+@media (max-width: 1026px) {
+    div#main .nrs-wide-reservation-about .fusion-row, div#main .main-spec-block .fusion-row {
+        width: 100%;
+    }
+}
+.home-bannerright{
+    font-size:40px;
+    color:#fff;
+    text-transform:uppercase;
+    padding-top:30px;
+    line-height:71px;
+}
+.home-bannerright .alignleft{
+    margin-top:15px;
+}
+
+
+/* ------------------------------------------------------- */
+/* ------------------ FOOTER: START ---------------------- */
+/* ------------------------------------------------------- */
+
+/* ------- FOOTER LINE 1 - SOCIAL NETWORK CONTACTS: START ------- */
+footer.fusion-footer-social-networks {
+    min-height: 49px;
+    background-color: #de2e2e;
+    -webkit-box-shadow: 6px 13px 18px 0 black;
+    -moz-box-shadow: 6px 13px 18px 0 black;
+    box-shadow: 6px 13px 18px 0 black;
+    top: 0;
+    position: relative;
+    z-index: 888;
+}
+footer.fusion-footer-social-networks .fusion-social-links-footer {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+footer.fusion-footer-social-networks .fusion-social-links-footer .fusion-social-networks {
+    margin-top: 11px;
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+footer.fusion-footer-social-networks a.fusion-social-network-icon {
+    margin: 0 11px 11px 11px;
+}
+footer.fusion-footer-social-networks a.fusion-social-network-icon.fusion-icon-facebook {
+    font-size: 18px;
+    background-color: white;
+    border-radius: 13px;
+    border: 4px solid white;
+    color: #de2e2e !important;
+    vertical-align: top;
+}
+footer.fusion-footer-social-networks a.fusion-social-network-icon.fusion-icon-skype {
+    color: white;
+    vertical-align: top;
+}
+footer.fusion-footer-social-networks .fusion-row-full {
+    margin: 0 auto;
+    width: 100%;
+}
+footer.fusion-footer-social-networks .fusion-row-full:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*LT FOOTER:
+TEXT 11 - SKYPE, FB icons
+TEXT 14 - CONTACT Details
+TEXT 10 - MAP
+*/
+/* ------- FOOTER LINE 2 - WIDGETS AREA: START ------- */
+footer.fusion-footer-widget-area div.pre-footer {
+    background-image: url("images/footer-top-bg.png");
+    background-repeat: repeat-x;
+    background-color: transparent;
+    height: 21px;
+}
+/* These padding hardcoded for now, because Avada footer widgets area padding settings doesn't work
+even if they are set to 0px */
+footer.fusion-footer-widget-area {
+    padding-left: 0;
+    padding-right: 0;
+    border-top: 0;
+    background-image: url("images/footerbg.jpg");
+}
+footer.fusion-footer-widget-area div.fusion-row div.fusion-columns {
+    padding-bottom: 43px;
+}
+@media (max-width: 768px) {
+    footer.fusion-footer-widget-area .fusion-column {
+        text-align: center;
+    }
+}
+footer.fusion-footer-widget-area div.fusion-row {
+    background-image: url('images/car-footer-image-crimson-red.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    min-height: 282px;
+}
+footer.fusion-footer-widget-area div.fusion-row div.fusion-columns div.fusion-column div.fusion-footer-widget-column {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+footer.fusion-footer-widget-area div.fusion-row div.textwidget {
+    line-height: 26px;
+    font-size: 14px;
+}
+.footercol {
+    padding: 0 !important;
+}
+.fusion-social-links-footer{
+    text-align:left!important;
+    border-bottom:1px solid #fff;
+    padding-top:14px;
+}
+.fusion-social-links-footer .fusion-social-networks a{
+    font-size:21px!important;
+    color:rgb(222, 46, 46)!important;
+}
+footer.fusion-footer-widget-area div.fusion-row ul {
+	line-height: 31px;
+    font-size: 18px;
+}
+.fusion-copyright-notice{
+    font-size:14px!important;
+}
+footer.fusion-footer-widget-area div.fusion-row ul li a {
+    padding: 0;
+    border-bottom: 0;
+}
+footer.fusion-footer-widget-area div.post-footer {
+    background-image: url("images/footerbottom.jpg");
+    background-repeat: repeat-x;
+    background-color: transparent;
+    height: 36px;
+    position: relative;
+    top: -43px; /*-21+(-22)*/
+    z-index: 777;
+}
+
+/* ------- FOOTER LINE 3 - GOOGLE MAP LINE: START ------- */
+footer.fusion-footer-map {
+    margin-top: -43px;
+    z-index: 800;
+}
+footer.fusion-footer-map .fusion-row-full {
+    margin: 0 auto;
+    width: 100%;
+}
+footer.fusion-footer-map .fusion-row-full .fusion-gmap-container .fusion-google-map {
+    margin-bottom: 0;
+}
+footer.fusion-footer-map .fusion-row-full .fusion-gmap-container .avada-google-map {
+    margin-bottom: 0;
+}
+footer.fusion-footer-map .fusion-row-full:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* -------- FOOTER LINE 4 - COPYRIGHT LINE: START -------- */
+#footer div.fusion-copyright-content div.copyright {
+    width: 1026px;
+    text-align: center;
+}
+#footer div.fusion-copyright-content div.left-side {
+    text-align: left;
+    float: left;
+}
+#footer div.fusion-copyright-content div.right-side {
+    text-align: right;
+}
+#footer div.fusion-copyright-content a {
+    color: #ffffff;
+    font-weight: normal;
+    background-color: transparent;
+}
+
+/* ------------------------------------------------------- */
+/* ----------------- PLUGIN SPECIFIC CODE ---------------- */
+/* ------------------------------------------------------- */
+
+/* THEME SPECIFIC HACKS FOR CRS SYSTEM ONLY: START */
+.single-navigation {
+    display: none;
+}
+/*Single item page - item block. Reservation confirmed. We need this when reservation shortcode is not loaded */
+#wrapper #main div.type-car {
+    padding-top: 86px;
+    margin-bottom: 19px;
+}
+/*Single item page heading title - item name. We need this when reservation shortcode is not loaded */
+#wrapper #main div.type-car > h2.entry-title {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #747474;
+}
+/* CRS THEME/SITE SPECIFIC HACKS: END */
