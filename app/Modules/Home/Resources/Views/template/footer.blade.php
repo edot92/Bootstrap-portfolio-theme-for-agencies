@@ -2,7 +2,7 @@
 <!-- The content of your page would go here. -->
 
 <footer class="footer-distributed">
-	<div class="footer-left" style="color:white;width:35%">
+	<div class="footer-left">
 
 		{{-- <p class="footer-company-about">
 			<span>About the company</span>
@@ -10,8 +10,8 @@
 		</p> --}}
 
 
-				<div class="embed-responsive embed-responsive-4by3">
-						<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971.7733881423862!2d115.16767675782866!3d-8.734512798431368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2441e28e8628b%3A0x88e9b313a32edd59!2sJl.+Kubu+Anyar+No.12%2C+Kuta%2C+Kabupaten+Badung%2C+Bali+80361!5e0!3m2!1sid!2sid!4v1477224413927" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div class="google-maps">
+						<iframe width="100%" height="100%" marginheight="0" marginwidth="0" frameborder="0" scrolling="no" class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971.7733881423862!2d115.16767675782866!3d-8.734512798431368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2441e28e8628b%3A0x88e9b313a32edd59!2sJl.+Kubu+Anyar+No.12%2C+Kuta%2C+Kabupaten+Badung%2C+Bali+80361!5e0!3m2!1sid!2sid!4v1477224413927"  frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 
 	</div>
@@ -56,3 +56,18 @@
 
 	</div>
 </footer>
+<style media="screen">
+.google-maps {
+	position: relative;
+	padding-bottom: 75%; // This is the aspect ratio
+	height: 0;
+	overflow: hidden;
+}
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+</style>
